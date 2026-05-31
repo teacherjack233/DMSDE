@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / local metadata
+.idea/
+.vscode/
+
+# Downloaded datasets and generated outputs
+data/MNIST/
+data/FashionMNIST/
+data/cifar-10-batches-py/
+data/cifar-100-python/
+data/*.gz
+data/*.zip
+results/
+recon_results/
+modelpth/
+runs/
+*.pdf
+
+# Model checkpoints and tensorboard events
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+
+# External demo/evaluation artifacts
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
